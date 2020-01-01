@@ -1,0 +1,27 @@
+1. Installing Virtual environment->
+pip install virtualenv
+
+2. Creating environment->
+virtualenv envName
+
+3. Activating environment->
+.\envName\Scripts\activate
+
+4. Deactivating environment->
+.\envName\Scripts\deactivate
+
+5. Create requirements.txt->
+pip freeze > requirements.txt
+
+6. Installing from requirements.txt->
+pip install -r requirements.txt
+
+7. Create Virtual environment which contains all site-packages from original C: drive python folder->
+virtualenv --system-site-packages envName
+
+
+Common Permission Error Fix :
+Open powershell in Administrator
+and run following command :
+
+set-executionpolicy remotesigned

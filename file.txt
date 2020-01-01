@@ -1,0 +1,4 @@
+this is a .txt file
+you can acces this using python functions
+
+some functions are open(), read(), readlines() etc.
