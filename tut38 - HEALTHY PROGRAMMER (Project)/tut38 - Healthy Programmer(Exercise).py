@@ -11,6 +11,7 @@ from datetime import datetime
 from time import time
 from pygame import mixer
 
+
 def musicOnLoop(file, stopper):
     mixer.init()
     mixer.music.load(file)
