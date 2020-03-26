@@ -31,3 +31,8 @@ a, b = b,a
 # b = temp
 print(a, b)
 
+# To make a copy of a list
+List = [1, 2, 3, 4]
+ListCopy = List[:]
+print(List)
+print(ListCopy)

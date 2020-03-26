@@ -10,6 +10,9 @@
 from pygame import mixer
 from datetime import datetime
 from time import time
+import os
+
+os.system('cls')
 
 def musicOnLoop(file, stopper):
     mixer.init()
@@ -52,3 +55,5 @@ if __name__ == '__main__':
             musicOnLoop('mp3/physical.mp3', 'exercise done')
             init_exercise = time()
             log_now("Physical Activity done at")
+
+
